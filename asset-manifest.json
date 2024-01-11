@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/PhotoPolio/static/css/main.800bdcd1.css",
+    "main.js": "/PhotoPolio/static/js/main.849040b4.js",
+    "static/js/787.0452698b.chunk.js": "/PhotoPolio/static/js/787.0452698b.chunk.js",
+    "static/media/edit.png": "/PhotoPolio/static/media/edit.21622d04ce8af31a7190.png",
+    "static/media/trash-bin.png": "/PhotoPolio/static/media/trash-bin.e2d7a73c365ba8d4c545.png",
+    "static/media/photos.png": "/PhotoPolio/static/media/photos.d9e2d94508db3c591574.png",
+    "static/media/palogo.png": "/PhotoPolio/static/media/palogo.7f2906692629e8629a34.png",
+    "static/media/clear.png": "/PhotoPolio/static/media/clear.cc77b84be764a2795bc6.png",
+    "static/media/search.png": "/PhotoPolio/static/media/search.217f7941f58e9f5b10f4.png",
+    "index.html": "/PhotoPolio/index.html",
+    "main.800bdcd1.css.map": "/PhotoPolio/static/css/main.800bdcd1.css.map",
+    "main.849040b4.js.map": "/PhotoPolio/static/js/main.849040b4.js.map",
+    "787.0452698b.chunk.js.map": "/PhotoPolio/static/js/787.0452698b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.800bdcd1.css",
+    "static/js/main.849040b4.js"
+  ]
+}
