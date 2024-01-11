@@ -1,0 +1,467 @@
+.App {
+  text-align: center;
+}
+#nav-div-main{
+  background-color: #a0a0f9;
+  padding: 0 60px;
+}
+#nav-inner-div{
+  display: flex;
+  text-align: center;
+}
+#nav-img{
+  width: 3rem;
+  height: 3rem;
+  margin-top: 1.5rem;
+}
+#main-section-div{
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+#image-main-section-div{
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main-section-div-1{
+  display: flex;
+  justify-content: space-between;
+}
+#image-main-section-div-1{
+  display: flex;
+  justify-content: space-between;
+}
+#add-album-btn{
+  height: 20%;
+  align-self: center;
+  color: #0077ff;
+  border: 2px solid #0077ff;
+  padding: 10px 10px;
+  border-radius: 6px;
+  background-color: #e5f1ff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+#add-image-btn{
+  height: 20%;
+  align-self: center;
+  color: #0077ff;
+  border: 2px solid #0077ff;
+  padding: 10px 10px;
+  border-radius: 6px;
+  background-color: #e5f1ff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+#cancel-album-btn{
+  height: 20%;
+  align-self: center;
+  color: #ff1300;
+  border: 2px solid #ff1300;
+  padding: 10px 10px;
+  border-radius: 6px;
+  background-color: #ffe7e5;
+  font-weight: bold;
+  font-size: 1rem;
+}
+#cancel-image-btn{
+  height: 20%;
+  align-self: center;
+  color: #ff1300;
+  border: 2px solid #ff1300;
+  padding: 10px 10px;
+  border-radius: 6px;
+  background-color: #ffe7e5;
+  font-weight: bold;
+  font-size: 1rem;
+}
+#album-form-main-div{
+  background-color: #f4f4f4;
+  padding: 10px 15px 20px 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#album-form-heading{
+  text-align: left;
+}
+#album-form-div{
+  display: flex;
+  justify-content: space-evenly;
+}
+#album-form-btn-div{
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+#clear-album-form{
+  background-color: #ff1300;
+  padding: 5% 10%;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  margin: 0px 5px;
+}
+#create-album-form{
+  background-color: #0077ff;
+  padding: 5% 10%;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  margin: 0px 5px;
+}
+#album-form-input{
+  width: 50%;
+  border-radius: 22px;
+  border: none;
+  padding: 15px 10px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#update-album-form-input{
+  width: 50%;
+  border-radius: 22px;
+  border: none;
+  padding: 15px 10px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+#image-form-main-div{
+  background-color: #f4f4f4;
+  padding: 10px 15px 20px 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#image-form-heading{
+  text-align: left;
+}
+#image-form-div{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  row-gap: 10px;
+}
+#image-form-btn-div{
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  align-self: center;
+}
+#clear-image-form{
+  background-color: #ff1300;
+  padding: 10px 15px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  margin: 0px 5px;
+}
+#add-image-form{
+  background-color: #0077ff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  margin: 0px 5px;
+}
+#image-form-input{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 22px;
+  border: none;
+  padding: 15px 10px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#update-image-form-input{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 22px;
+  border: none;
+  padding: 15px 10px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#image-form-input-2{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 22px;
+  border: none;
+  padding: 15px 10px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+#update-image-form-input-2{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 22px;
+  border: none;
+  padding: 15px 10px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+@media (max-width:790px){
+  #album-form-div{
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  #album-form-input{
+    width: 80%;
+    align-self: center;
+  }
+  #album-form-btn-div{
+    width: auto;
+    align-self: center;
+  }
+  #clear-album-form{
+    padding: 2px 5px;
+    font-size: 1rem;
+  }
+  #create-album-form{
+    padding: 2px 5px;
+    font-size: 1rem;
+  }
+}
+#main-section-div-2{
+  grid-gap: 30px;
+    display: grid;
+    gap: 30px;
+    grid-auto-flow: row;
+    grid-auto-rows: 150px;
+    grid-template: repeat(1,150px) /repeat(auto-fit,minmax(150px,.5fr));
+    margin-bottom: 100px;
+}
+#image-main-section-div-2{
+  grid-gap: 30px;
+    display: grid;
+    gap: 30px;
+    grid-auto-flow: row;
+    grid-auto-rows: 150px;
+    grid-template: repeat(1,150px) /repeat(auto-fit,minmax(150px,.5fr));
+    margin-bottom: 100px;
+}
+.album-list{
+  align-items: center;
+    border: 5px solid #eee;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    margin-block: 30px;
+    transition: border-color .3s;
+    width: 100%;
+    position: relative;
+}
+.image-list{
+  align-items: center;
+    border: 5px solid #eee;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    margin-block: 30px;
+    transition: border-color .3s;
+    width: 100%;
+    position: relative;
+}
+.album-list:hover{
+  border-color: #07f;
+    color: #fff;
+}
+.album-list:hover span{
+  background-color: #07f;
+  color: white;
+}
+.album-list img{
+  margin-bottom: 30px;
+    width: 50px;
+}
+.album-list span{
+  background-color: #eee;
+    font-size: 1.1rem;
+    font-weight: 700;
+    justify-self: baseline;
+    padding-block: 5px;
+    text-align: center;
+    transition: .3s;
+    width: 100%;
+}
+.image-list:hover{
+  border-color: #07f;
+    color: #fff;
+}
+.image-list:hover span{
+  background-color: #07f;
+  color: white;
+}
+.image-list img{
+  height: 75%;
+    object-fit: cover;
+    width: 100%;
+}
+.image-list span{
+  background-color: #eee;
+    font-size: 1.1rem;
+    font-weight: 700;
+    justify-self: baseline;
+    padding-block: 5px;
+    text-align: center;
+    transition: .3s;
+    width: 100%;
+}
+#image-page-back-btn{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  align-self: center;
+  border: none;
+  background-color: white;
+  box-shadow: 0 3px 8px rgba(0,0,0,.24);
+}
+#image-page-back-btn img{
+  width: 30px;
+  height: 30px;
+}
+#image-carousel{
+  align-items: center;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    gap: 30px;
+    inset: 0;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;
+}
+#image-carousel-remove{
+  position: absolute;
+    right: 50px;
+    top: 50px;
+}
+#album-update-btn{
+  position: absolute;
+  right: 8%;
+  top: 9%;
+  background-color: #ff1300;
+}
+#image-update-btn{
+  position: absolute;
+  right: 8%;
+  top: 9%;
+  background-color: #ff1300;
+}
+.carousel-btn{
+  align-items: center;
+    aspect-ratio: 1;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 800;
+    justify-content: center;
+    outline: none;
+    transition: .3s;
+    width: 60px;
+}
+#image-carousel img{
+  height: 80%;
+    object-fit: contain;
+    width: 60vw;
+}
+.delete-buttons{
+  border: none;
+  position: absolute;
+  display: none;
+  right: -15px;
+  top: -30px;
+  transition: .3s;
+  background-color: transparent;
+  border-radius: 50%;
+  width: 35px;
+  z-index: index 100;
+  cursor: grab;
+}
+.edit-buttons{
+  border: none;
+  display: none;
+  position: absolute;
+  right: 30px;
+  top: -30px;
+  transition: .3s;
+  background-color: transparent;
+  border-radius: 50%;
+  width: 35px;
+  z-index: 100;
+  cursor: grab;
+}
+.delete-buttons img, .edit-buttons img{
+  width: 35px;
+  height: 35px;
+}
+.image-list:hover .delete-buttons{
+  display: block;
+}
+.image-list:hover .edit-buttons{
+  display: block;
+}
+.album-list:hover .delete-buttons{
+  display: block;
+}
+.album-list:hover .edit-buttons{
+  display: block;
+}
+#search-image-list{
+  cursor: pointer;
+  width: 30px;
+}
+#search-image-div{
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+#search-image-input{
+  font-size: 1.1rem;
+  font-weight: 300;
+  outline: none;
+  padding: 5px 5px 5px 10px;
+}
+#search-album-list{
+  cursor: pointer;
+  width: 30px;
+}
+#search-album-div{
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+#search-album-input{
+  font-size: 1.1rem;
+  font-weight: 300;
+  outline: none;
+  padding: 5px 5px 5px 10px;
+}
+#image-heading{
+  padding: 0px 20px;
+}
